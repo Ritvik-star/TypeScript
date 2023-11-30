@@ -337,20 +337,20 @@
 
 //1).
 
-const enum Users  {
-    name = "Ritvik",
-    id = 1
-}
+// const enum Users  {
+//     name = "Ritvik",
+//     id = 1
+// }
 
-console.log(Users.name, Users.id);  //that's how we can use enums instead of direactly using values 
+// console.log(Users.name, Users.id);  //that's how we can use enums instead of direactly using values 
 
-//2).
+// //2).
 
-const enum digits {
-    one = 1,
-    two,
-    three,
-    four
-}       //in this case automataclly, numbers will get assigns to enums in increasing order
+// const enum digits {
+//     one = 1,
+//     two,
+//     three,
+//     four
+// }       //in this case automataclly, numbers will get assigns to enums in increasing order
 
 export {} //just to avoid errors
