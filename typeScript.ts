@@ -351,6 +351,6 @@
 //     two,
 //     three,
 //     four
-// }       //in this case automataclly, numbers will get assigns to enums in increasing order
+// }      //in this case automataclly, numbers will get assigns to enums in increasing order
 
 export {} //just to avoid errors
