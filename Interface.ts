@@ -55,3 +55,37 @@ const carOwner: Car = {
 }
 
 //likewise we can extend and use interface as type with methods or object
+
+
+//Interface with classes (using implements keyword)
+
+interface person1{
+    name: string,
+    id: number
+}
+
+class Boy implements person1{   //by using 'implements' keyword we can implement interface with class
+    constructor(
+        public name:string,
+        public id:number
+    ){
+    }
+}
+
+interface work{ 
+    showWord(): void
+}
+
+class Girl implements person1, work{    //likewise we can implement multiple interfaces with class
+    constructor(
+        public name:string,
+        public id:number,
+        public age:number
+    ){
+    }
+
+    showWord(): void{
+        console.log("showing work.")
+    }
+
+}
